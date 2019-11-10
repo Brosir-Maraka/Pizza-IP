@@ -15,5 +15,4 @@ $(document).ready(function() {
       $(".show-testimonials").toggle();
       $(".hide-testimonials").toggle();
     });
-
   }); 

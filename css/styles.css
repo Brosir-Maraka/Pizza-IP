@@ -32,10 +32,27 @@
 .show-services {
     display: none;
 }
-.show-testmonials {
+.show-testimonials {
     display: none;
 }
   
 .tst-img {
     float: right;
+}
+.abt-img {
+    float: right;
+    height: 300px;
+    width: 300px;
+}
+.menu {
+    height: 300px;
+    width: 300px;
+}
+.services {
+    height: 300px;
+    width: 300px;
+}
+.tst-img {
+    height: 300px;
+    width: 300px;
 }
