@@ -11,4 +11,9 @@ $(document).ready(function() {
       $(".show-services").toggle();
       $(".hide-services").toggle();
     });
+    $(".hide-testimonials, .show-testimonials").click(function() {
+      $(".show-testimonials").toggle();
+      $(".hide-testimonials").toggle();
+    });
+
   }); 
