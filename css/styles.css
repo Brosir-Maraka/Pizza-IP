@@ -21,3 +21,6 @@
     vertical-align: 50px;
     font: Merriweather;
   }
+ul {
+    text-emphasis-color: blue;
+}
