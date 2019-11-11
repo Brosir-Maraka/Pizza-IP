@@ -16,3 +16,9 @@ $(document).ready(function() {
       $(".hide-testimonials").toggle();
     });
   }); 
+  $(document).ready(function() {
+    document.getElementById("form").addEventListener("submit", message);
+    function message() {
+      alert("Thank you for choosing Abnar, your mesage has been received and we shall get back tto as soon as possible");
+    }
+  });

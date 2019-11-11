@@ -17,7 +17,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    color:rgb(12, 241, 81) ;
+    color:blueviolet ;
     vertical-align: 50px;
     vertical-align: 50px;
     font: Merriweather;
@@ -60,6 +60,6 @@
     background-color: rgb(153, 165, 42);
 }
 #order {
-    background-color: chartreuse;
+    background-color: orange;
 
 }
