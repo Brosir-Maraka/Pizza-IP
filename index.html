@@ -108,6 +108,7 @@
         <div class="row">
 
           <div class="col-md-5 p-2" id="order">
+            <form id="order">
             <h style="color: white; align-content: center;"> ORDER NOW!!</h> <br>
             <input type="radio" name="size" value="(500)" checked> small<br>
             <input type="radio" name="size" value="(750"> medium<br>
@@ -118,9 +119,24 @@
              <input type="radio" name="crust" value="150">Gluten-free <em>150/=</em><br> <br>
              <p><strong>TOPPINGS</strong></p> <br>
 
-            <input type="checkbox" name="toppings" value="150">Gluten-free <em>150/=</em><br> <br>
+            <input type="checkbox" name="toppings" value="150">Pepperoni      <em>150/=</em><br> 
+            <input type="checkbox" name="toppings" value="150">extra-cheese     <em>150/=</em><br> 
+            <input type="checkbox" name="toppings" value="100">sausage     <em>150/=</em><br> 
+            <input type="checkbox" name="toppings" value="150">onions      <em>100/=</em><br> 
+            <input type="checkbox" name="toppings" value="100">Bacon       <em>100/=</em><br> 
+            <input type="checkbox" name="toppings" value="100">Mushrooms   <em>100/=</em><br>
+            <br>
+            <br>
+            <br>
+            <p><strong>Need delivery</strong></p>
+            <input type="radio" name="delivery"id= delivery1 value="250" onclick="location ( )" required/> YES
+            <input type="radio" name="delivery"id= delivery1 value="250" onclick="location ( )" required/> NO <br><br>
+            <button type="submit" value="submit" class="btn btn-primary" onsubmit="event.preventDefault()" onsubmit="message()" >Place Your Order</button> <br><br>
           </div>
-          <div class="col-md-2 p-2"></div>
+        </form>
+
+          <div class="col-md-1"></div>
+
           <div class="col-md-5 p-2" id="contact">
            <h style="color: white;">LEAVE US A MESSAGE</h>
            <form onsubmit="event.preventDefault()" id="form" method="POST">              
@@ -134,7 +150,8 @@
                 <div class="form-group">
                 <textarea class= "form-control" placeholder="yourtext" rows="5"></textarea>
                 </div>
-              <button type="submit" value="submit" class="btn btn-primary" onsubmit="event.preventDefault()" onsubmit="message()" >Submit</button>
+              <button type="submit" value="submit" class="btn btn-primary" onsubmit="event.preventDefault()" onsubmit="message()">submit</button> 
+              
             </form>
           </div>
         </div>
