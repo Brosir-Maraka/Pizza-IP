@@ -1,5 +1,5 @@
 .background {
-    background-image: url("/img/background.png ");
+    background-image: url("../img/background.png ");
     height: 100vh;
     max-width: 100%;
     background-position: center;
@@ -55,4 +55,11 @@
 .tst-img {
     height: 250px;
     width: 250px;
+}
+#contact {
+    background-color: rgb(153, 165, 42);
+}
+#order {
+    background-color: chartreuse;
+
 }

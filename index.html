@@ -103,21 +103,42 @@
     <br>
     <br>
     <!--contact section-->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 p-3">
-          <h>PLACE YOUR ORDER NOW!!</h>
-        </div>
-        <div class="col-md-4 p-3">
-          
+    <div class="container padding">
+      <div class="ordering">
+        <div class="row">
 
+          <div class="col-md-5 p-2" id="order">
+            <h style="color: green;">ORDER NOW!!</h>
+          </div>
+          <div class="col-md-2 p-2"></div>
+          <div class="col-md-5 p-2" id="contact">
+           <h style="color: white;">LEAVE US A MESSAGE</h>
+           <form onsubmit="event.preventDefault()" id="form" method="POST">
+              <p> <strong>CONTACT US</strong></p>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Enter name">
+              </div>
+              <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                <textarea class= "form-control" placeholder="yourtext" rows="5"></textarea>
+                </div>
+              <button type="submit" value="submit" class="btn btn-primary" onsubmit="event.preventDefault()" onsubmit="message()" >Submit</button>
+            </form>g
+          </div>
         </div>
 
       </div>
-      
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+<!--close-->
+<div class="container-fluid">
 
-      
-
+</div>
        
     
 
