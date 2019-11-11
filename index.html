@@ -28,10 +28,10 @@
           <div class="col-md-3 p-1">
             <div class="hide-aboutus">
               <img src="./img/aboutus.png"/ class= "abt-img">
-              <p class="click-here1" style="color: rgb(0, 0, 255);">ABOUT US</p>
+              <p class="click-here1" style="color: blue;">ABOUT US</p>
             </div>
             <div class="show-aboutus">
-              <p class="click-here2" style="color: brown;"><strong>ABOUT US</strong></p>
+              <p class="click-here2" style="color:blue;"><strong>ABOUT US</strong></p>
               <p style="color: chartreuse;">
                 Our design practice offers a full range of services including
                 brand strategy, interaction and visual design and user
@@ -45,11 +45,11 @@
           <div class="col-md-3 p-2">
             <div class="hide-menu">
               <img src="./img/menu.png" class="menu"/>
-              <p class="click1" style="color: brown;"><strong>MENU</strong></p>
+              <p class="click1" style="color: blue;"><strong>MENU</strong></p>
               <br />
             </div>
             <div class="show-menu"> 
-              <p class="click2" style="color: brown;"><strong>MENU</strong></p>
+              <p class="click2" style="color:blue;"><strong>MENU</strong></p>
               <p>
                <ul style="color: blue;"> 
                  <li>Bacon Double cheese burger</li>
@@ -87,7 +87,7 @@
             <div class="show-testimonials">
               <p class="clickd" style="color: blue;"><strong>TESTIMONIALS</strong></p>
               <br />
-              <p style="color: brown;">
+              <p style="color: whitesmoke;">
                Our company and employees are commited to providing a unique experience to our customers. Apart from our wide range of Pizza delicacies, we offer customized pizza flavours that suits your taste and desires. We also provide deliveries services accross the nation. Our service is tailored to provide you with not only sumptuous flavours but also to meet your unique desires and convinience.
               </p>
             </div>
@@ -105,27 +105,27 @@
           <div class="col-md-5 p-2" id="order">
             <form id="order">
             <h style="color: white; align-content: center;"> ORDER NOW!!</h> <br>
-            <input type="radio" name="size" value="(500)" checked> small<br>
-            <input type="radio" name="size" value="(750"> medium<br>
-             <input type="radio" name="size" value="100"> Large <br><br>
+            <input type="radio" name="size" id= "size-s"value="(500)" checked> small<br>
+            <input type="radio" name="size" id="size-m" value="(750"> medium<br>
+             <input type="radio" name="size"id="size-l" value="1000"> Large <br><br>
              <p style="color: white;"><strong>CRUST</strong></p>
-             <input type="radio" name="crust" value="50">crispy <em> 50/=</em><br>
-             <input type="radio" name="crust" value="100">stuffed <em>100/=</em><br>
-             <input type="radio" name="crust" value="150">Gluten-free <em>150/=</em><br> <br>
+             <input type="radio" name="crust" id="crispy"  value="50">crispy <em> 50/=</em><br>
+             <input type="radio" name="crust" id="stuffed" value="100">stuffed <em>100/=</em><br>
+             <input type="radio" name="crust"id="Gluten-free" value="150">Gluten-free <em>150/=</em><br> <br>
              <p><strong>TOPPINGS</strong></p> <br>
 
             <input type="checkbox" name="toppings" value="150">Pepperoni      <em>150/=</em><br> 
             <input type="checkbox" name="toppings" value="150">extra-cheese     <em>150/=</em><br> 
             <input type="checkbox" name="toppings" value="100">sausage     <em>150/=</em><br> 
-            <input type="checkbox" name="toppings" value="150">onions      <em>100/=</em><br> 
-            <input type="checkbox" name="toppings" value="100">Bacon       <em>100/=</em><br> 
-            <input type="checkbox" name="toppings" value="100">Mushrooms   <em>100/=</em><br>
+            <input type="checkbox" name="toppings" value="150">onions      <em>150/=</em><br> 
+            <input type="checkbox" name="toppings" value="150">Bacon       <em>150/=</em><br> 
+            <input type="checkbox" name="toppings" value="150">Mushrooms   <em>150/=</em><br>
             <br>
             <br>
             <br>
-            <p><strong>Need delivery</strong></p>
+            <p><strong>Deliver</strong></p>
             <input type="radio" name="delivery"id= delivery1 value="250" onclick="location ( )" required/> YES
-            <input type="radio" name="delivery"id= delivery1 value="250" onclick="location ( )" required/> NO <br><br>
+            <input type="radio" name="delivery"id= delivery1 value="0" onclick="location ( )" required/> NO <br><br>
             <button type="submit" value="submit" class="btn btn-primary" onsubmit="event.preventDefault()" onsubmit="message()" >Place Your Order</button> <br><br>
             <h style= "color: rgb(71, 255, 132);"><strong>Totals</strong></h>
           </div>
