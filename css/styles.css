@@ -1,7 +1,7 @@
 .background {
     background-image: url("/img/background.png ");
-    height: 90vh;
-    max-width: 90%;
+    height: 100vh;
+    max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,18 +41,18 @@
 }
 .abt-img {
     float: right;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
 }
 .menu {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
 }
 .services {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
 }
 .tst-img {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
 }
