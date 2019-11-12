@@ -1,6 +1,7 @@
 #background {
     background-image: url("../img/background.png");
     height: 80vh;
+    text-align: bottom;
 }
 
 .card-text {
@@ -53,17 +54,17 @@
     width: 250px;
 }
 #contact {
-    background-color:grey;
+    background-color:skyblue;
 }
 #order {
     background-color: white;
 
 }
 .aboutus {
-    background: grey;
+    background:skyblue;
 }
 .ordering {
-    background-color:grey;
+    background-color:skyblue;
 }
 
 .copyright {
