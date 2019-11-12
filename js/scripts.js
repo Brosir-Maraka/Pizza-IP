@@ -207,7 +207,7 @@ $("document").ready(function() {
   
   $("#myModel").click(function() {
     var deliver = confirm(
-      "Would you like us deliver your order at a cost of ksh 250."
+      "Would you like us to deliver your order?"
     );
     if (deliver) {
       var place = prompt("Please enter your location");
