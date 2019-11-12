@@ -1,12 +1,8 @@
-.background {
-    background-image: url("../img/background.png ");
-    height: 100vh;
-    max-width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    float: center;
+#background {
+    background-image: url("../img/background.png");
+    height: 80vh;
 }
+
 .card-text {
     text-align: center;
     vertical-align: middle;
@@ -57,17 +53,17 @@
     width: 250px;
 }
 #contact {
-    background-color: rgb(153, 165, 42);
+    background-color:grey;
 }
 #order {
-    background-color: orange;
+    background-color: white;
 
 }
 .aboutus {
-    background: burlywood;
+    background: grey;
 }
 .ordering {
-    background-color: burlywood;
+    background-color:grey;
 }
 
 .copyright {
@@ -87,3 +83,9 @@
     }
 
     
+.gif {
+    height: 350px;
+    width: 350px;
+    border-bottom: 50px;
+
+}

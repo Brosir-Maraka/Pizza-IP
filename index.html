@@ -11,16 +11,25 @@
   </head>
   <body>
     <!--home page-->
-    <div class="container-fluid">
-      <div class="background">
-        <div class="card-text">
-          <h1><strong>THE ABNAR PIZZA PLACE</strong></h1>
-          <br />
-          <P> <em>Taste with us and you can never get it wrong</em></P>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 p-1" id="background">
+                <h1 style="text-align: center; color: blue;"><strong>THE ABNAR PIZZA PLACE</strong></h1>
+                <br />
+                <P style="color: blue;text-align: center;"> <em>Taste with us and you can never get it wrong</em></P>
+            </div>            
+              
+              <div class="col-md-1 p-1"></div>
+              <div class="col-md-5">
+                <img src="/img/pizza.gif" class="gif" alt=”animated”>               
+            </div>
         </div>
-      </div>
     </div>
-    <br>   
+    <br>
+    <br>
+           
+      
+      
 
     <!--aboutus-->
     <div class="container">
@@ -28,7 +37,7 @@
         <div class="row text-center">
           <div class="col-md-3 p-1">
             <div class="hide-aboutus">
-              <img src="./img/aboutus.png"/ class= "abt-img">
+              <img src="./img/aboutus.png" class= "abt-img">
               <p class="click-here1" style="color: blue;">ABOUT US</p>
             </div>
             <div class="show-aboutus">
@@ -105,19 +114,14 @@
         <div class="row">
           <div class="col-md-5" id="mk-order"> 
             <div id="order-section">
-                <h1 class="text-center pt-4">Select your ite</h1 style= "color: blue">
-                <div class="alert alert-success mt-2" id="success">
-                    <strong>Thankyou for choosing Abnar Pizza place!</strong> Your order has been received and will be processed shortly
-                    
-                    <span style="color: blue; font-size:18px" id="place" style="color: blue"></span> 
-                     <span id="finalprice"style="color: blue"></span>.
-                </div>
+                <h1 class="text-center pt-4"></h1 style= "color: blue">
+                
                
                 <div class="row">
                     <div class="col-md-6">
                         
                             <card-title>
-                                <h3 class="pt-4 pl-5" style="color: blue;"><strong>ORDER NOW!</strong></h3>
+                                <h3 class="pt-4 pl-5" style="color: blue;"> <strong>Place your order</strong></h3>
                             </card-title>
                             <div class="card-body">
                                 <form id="myform">
@@ -188,7 +192,7 @@
                                             <label class="form-check-label" for="inlineCheckbox2">Onions</label>
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn-success btn mt-3" id="orderbtn">
+                                    <button type="submit" class="btn-primary btn mt-3" id="orderbtn">
                                         Add Cart
                                     </button>
                                 </form>
@@ -198,34 +202,33 @@
                    <div class="col-md-6">
                         
                             <div class="card-title d-inline-flex">
-                                <h3 class="p-4" style="color:blue;"> Items selected </h3>
-                                <i class="p-4 fa fa-shopping-cart total"><button class="btn-success btn ml-2"
-                                        value="0" id="quantity">
-                                        0
-                                    </button></i>
+                                <h3 class="p-4" style="color:blue;"> Items selected </h3> <br>
+                                
+                                <i class="p-4 fa fa-shopping-cart total">
+                              <button class="btn-primary btn ml-2" value="0" id="quantity" style="color: darkblue;"> 0 </button></i>
                             </div>
+                            <p style="color:blue;"> <em>Order Summary </em></p>
                             
                                 <table id="table">
                                     <tr>
                                       <tr>
-                                        <td>Type</td>
-                                        <td>Size</td>
-                                        <td>Crust</td>
-                                        <td>Toppings</td>
-                                        <td>Total</td>
+                                        <td style="color:cyan;">Type</td> <br> <br>
+                                        <td style="color: cyan;">Size</td> <br>
+                                        <td style="color: cyan;">Crust</td>
+                                        <td style="color: cyan;">Toppings</td> <br>
+                                        <td style="color: cyan;">Total</td> <br>
                                     </tr>
                                 </table>
                            
                             <div id="cart">
-                                <img id="cart" src="./images/cart.svg" alt="" />
+                                <img id="cart" src="./images/cart.svg" alt= "" />
                                 <p class="text-center pt-4" style="color: darkblue;">
                                     Add to your Cart
                                 </p>
                             </div>
                             <div id="items"></div>
                             <div class="checkout">
-                                <button class="btn-success btn m-4" data-toggle="modal"
-                                    data-target="#exampleModalCenter" id="gettotal">
+                                <button class="btn-primary btn m-4" data-toggle="modal"data-target="#exampleModalCenter" id="gettotal">
                                     Checkout
                                 </button>
                             </div>
@@ -235,22 +238,16 @@
             </div>  
       </div>
           
-
-            
-
-
-
           <div class="col-md-1 p-1"></div>
 
           <div class="col-md-5 p-2" id="contact">
-           <h style="color: white;">LEAVE US A MESSAGE</h>
+           <h style="color: blue;">LEAVE US A MESSAGE</h>
            <form onsubmit="event.preventDefault()" id="form" method="POST">              
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Enter name">
               </div>
               <div class="form-group">
-                  <input type="email" class="form-control" placeholder="Enter \
-                  mail">
+                <input type="email" class="form-control" placeholder="Enter \mail">
                 </div>
                 <div class="form-group">
                 <textarea class= "form-control" placeholder="yourtext" rows="5"></textarea>
@@ -258,6 +255,8 @@
               <button type="submit" value="submit" class="btn btn-primary" onsubmit="event.preventDefault()" onsubmit="message()">submit</button> 
               
             </form>
+            <br>
+            <br>
             <br>
             <br>
             <p style="color: blue;">You can also directly contact out customer care <br>
