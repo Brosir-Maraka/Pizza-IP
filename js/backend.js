@@ -1,5 +1,5 @@
 $document.ready(function() {
-    $("form#order"). submit(function(event) {
+    $("form#request"). submit(function(event) {
         event.preventDefault ();
         let pizzaSize=parseInt($("input[name=size]:checked").val());
         let pizzaCrust=parseInt($("input[name=crust]:checked").val());
@@ -13,7 +13,7 @@ $document.ready(function() {
         }
         let pizzaDelivery=parseInt("input[name=deliver]:checked").val();
         let newTotal= add(pizzaSize,pizzaCrust,pizzaToppings,pizzaDelivery);
-        $("#output").text(newTotal);
+        $(".sum").text(newTotal);
         console.log(pizzaToppings);
 
     });
