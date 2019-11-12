@@ -72,3 +72,7 @@
 .social {
     display: flex;
 }
+.twitter {
+    height: 30%;
+    max-width: 30%;
+}
