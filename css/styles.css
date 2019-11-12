@@ -69,3 +69,6 @@
 .ordering {
     background-color: burlywood;
 }
+.social {
+    display: flex;
+}
